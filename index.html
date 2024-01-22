@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui and tailwind link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <style>
+        .dot-clr {
+            color: #FF4240;
+        }
+
+        .font-family {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .gray-text {
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+        }
+    </style>
+
+
+</head>
+
+<body class="font-family">
+    <header class="lg:w-[1000px] mx-auto">
+        <!-- nav bar  -->
+        <div class="lg:mt-7">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a class="dot-clr">Home</a></li>
+                            <li>
+                                <a>About</a>
+                            </li>
+                            <li>
+                                <a>Pages</a>
+                            </li>
+                            <li>
+                                <a>Blog</a>
+                            </li>
+                            <li>
+                                <a>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-2xl lg:text-4xl">Hockey <span class="dot-clr">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="dot-clr">Home</a></li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>Pages</a>
+                        </li>
+                        <li>
+                            <a>Blog</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn text-white bg-red-600 hover:bg-red-600 ">Get Ticket</a>
+                </div>
+            </div>
+        </div>
+        <!-- header pic -->
+        <section>
+            <div class="carousel w-full  ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="1st pic.png" class="w-full  " />
+                    <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:translate-y-32 lg:justify-start">
+                        <a href="#slide1" class="btn btn-circle bg-stone-950 text-white border-none mr-3">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-stone-950 text-white border-none">❯</a>
+                    </div>
+
+                </div>
+
+            </div>
+        <!-- meat all hero section -->
+
+            <section>
+                <div class="bg-stone-950  lg: lg:-translate-y-[200px] lg:absolute lg:translate-x-[500px] lg:w-[466px] lg:h-40
+                lg:h-[165px] p-6  rounded-2xl lg:text-left lg:p-8 lg:absolute">
+                    <h1 class="text-white my-1 text-xl font-extrabold">Meet all the heroes from the field</h1>
+                    <p class="text-white mt-3 gray-text">
+                        Heroes are individuals who demonstrate exceptional courage, selflessness, and resilience in the face
+                        of adversity. They often go above and beyond to help others.</p>
+                </div>
+            </section>
+        </section>
+       
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
