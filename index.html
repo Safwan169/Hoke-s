@@ -74,14 +74,15 @@
         }
 
         .program-text2 {
-            color: #181616;
+            color: #070707;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 26px;
             /* 162.5% */
         }
-        .border{
+
+        .border {
             border: 1px solid rgba(19, 19, 24, 0.10);
 
 
@@ -99,8 +100,8 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 -ml-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 -ml-5 w-5" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
@@ -122,7 +123,8 @@
                             </li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost -ml-6 lg:-ml-5 text-2xl lg:text-4xl">Hockey <span class="dot-clr">'</span>s</a>
+                    <a class="btn btn-ghost -ml-6 lg:-ml-5 text-2xl lg:text-4xl">Hockey <span
+                            class="dot-clr">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -138,10 +140,12 @@
                         </li>
                         <li>
                             <a>Contact</a>
-                        </li>
+                        </li>                       
+                    </ul>
                 </div>
-                <div class="navbar-end">
-                    <a class="btn text-white bg-red-600 hover:bg-red-600 ">Get Ticket</a>
+                <div class="navbar-end gap-4">
+                    <i class="hover:scale-105  lg:block lg:w-8 text-gray-400 fa-solid fa-magnifying-glass"></i>
+                    <a class="btn text-white bg-red-600 hover:bg-red-600 hover:scale-[1.03]">Get Ticket</a>
                 </div>
             </div>
         </div>
@@ -151,9 +155,11 @@
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="1st pic.png" class="w-full  " />
                     <div
-                        class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:translate-y-32 lg:justify-start">
-                        <a href="#slide1" class="btn btn-circle bg-stone-950 text-white border-none mr-3">❮</a>
-                        <a href="#slide1" class="btn btn-circle bg-stone-950 text-white border-none">❯</a>
+                        class=" absolute flex justify-center transform translate-y-6 left-5 right-5 top-1/2 lg:translate-y-32 lg:justify-start">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-stone-950 hover:bg-slate-950 hover:scale-[1.05] text-white border-none mr-3">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-stone-950  hover:bg-slate-950 hover:scale-[1.05] text-white border-none">❯</a>
                     </div>
 
                 </div>
@@ -161,7 +167,7 @@
             </div>
             <!-- meat all hero section -->
 
-            <section>
+            <section class="my-3 lg:my-0">
                 <div class="bg-stone-950  lg: lg:-translate-y-[200px] lg:absolute lg:translate-x-[700px] lg:w-[466px] 
                 lg:h-[165px] p-6  rounded-2xl lg:text-left lg:p-8 lg:absolute">
                     <h1 class="text-white my-1 text-xl font-extrabold">Meet all the heroes from the field</h1>
@@ -186,8 +192,8 @@
         <!-- progress  -->
         <div class="lg:flex lg:justify-center  my-16">
             <div class="text-center my-14 lg:my-0">
-                <div class="progress radial-progress text-red-600" style="--value:87;" role="progressbar"><span
-                        class="text-black font-extrabold">87%</span>
+                <div class="progress radial-progress text-red-600 rotate-[160deg]" style="--value:87;"
+                    role="progressbar"><span class="text-black font-extrabold rotate-[-160deg]">87%</span>
                 </div>
                 <div class="text-center flex flex-col items-center my-4">
                     <p class="progress-text">Prayer Facility</p>
@@ -196,8 +202,8 @@
                 </div>
             </div>
             <div class="text-center mt-14 lg:mt-0">
-                <div class="progress radial-progress text-green-500" style="--value:95;" role="progressbar"><span
-                        class="text-black font-extrabold">95%</span>
+                <div class="progress radial-progress text-green-500 rotate-[110deg]" style="--value:95;"
+                    role="progressbar"><span class="text-black font-extrabold rotate-[-110deg]">95%</span>
                 </div>
                 <div class="text-center flex flex-col items-center my-4">
                     <p class="progress-text">Experienced Coach</p>
@@ -206,8 +212,9 @@
                 </div>
             </div>
             <div class="text-center mt-14 lg:mt-0">
-                <div class="radial-progress progress text-yellow-600" style="--value:90;" role="progressbar">
-                    <span class="text-black font-extrabold">90%</span>
+                <div class="radial-progress progress text-yellow-600 rotate-[140deg]" style="--value:90;"
+                    role="progressbar">
+                    <span class="text-black font-extrabold rotate-[-140deg]">90%</span>
                 </div>
                 <div class="text-center flex flex-col items-center my-4">
                     <p class="progress-text">Senior Player</p>
@@ -216,8 +223,9 @@
                 </div>
             </div>
             <div class="text-center my-14 lg:my-0">
-                <div class="radial-progress progress text-blue-600" style="--value:80;" role="progressbar">
-                    <span class="text-black font-extrabold">80%</span>
+                <div class="radial-progress progress text-blue-600 rotate-[140deg]" style="--value:80;"
+                    role="progressbar">
+                    <span class="text-black font-extrabold rotate-[-140deg]">80%</span>
                 </div>
                 <div class="text-center flex flex-col items-center my-4">
                     <p class="progress-text">Training Ground</p>
@@ -249,7 +257,9 @@
                         </p>
                     </div>
                     <div class="card-actions justify-start">
-                        <button class="btn border-0 text-white text-xl font-bold bg-red-500">Register Now</button>
+                        <button
+                            class="btn border-0 text-white text-xl font-bold bg-red-500 hover:bg-red-500 hover:scale-110">Register
+                            Now</button>
                     </div>
                 </div>
             </div>
@@ -263,13 +273,15 @@
                             potential.</p>
                     </div>
                     <div class="card-actions justify-start">
-                        <button class="btn border-0 text-white text-xl font-bold bg-red-500">Register Now</button>
+                        <button
+                            class="btn border-0 text-white text-xl font-bold bg-red-500  hover:bg-red-500 hover:scale-110">Register
+                            Now</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- long program sections cards -->
-        <div class="card w-full lg:w-full  mt-4 lg:mt-0 bg-base-100 shadow-xl image-full">
+        <div class="card w-full mt-4 lg:mt-0 bg-base-100 shadow-xl image-full ">
             <figure><img class="w-full" src="ps3.png" alt="" /></figure>
             <div class="card-body justify-center  ">
                 <div class="relative mt-28 ">
@@ -279,114 +291,249 @@
                         to navigate the complexities of today's professional landscape.</p>
                 </div>
                 <div class="card-actions justify-start">
-                    <button class="btn border-0 text-white text-xl font-bold bg-red-500">Register Now</button>
+                    <button
+                        class="btn border-0 text-white text-xl font-bold bg-red-500  hover:bg-red-500 hover:scale-110">Register
+                        Now</button>
                 </div>
             </div>
         </div>
         <!-- our products-text -->
-        <div class="text-center flex flex-col items-center my-14">
-            <p class="text-4xl font-extrabold">Our New Products</p>
-            <p class="programe-text2 my-6 text-neutral-500 lg:w-[607px]">As a member of our Club, enjoy exclusive access
+        <div class="text-center flex flex-col items-center px-5 lg:px-0 my-14">
+            <p class="text-2xl lg:text-4xl font-extrabold">Our New Products</p>
+            <p class="text-[14px] lg:text-[16px] programe-text2 my-6 text-neutral-500 lg:w-[607px]">As a member of our
+                Club, enjoy exclusive access
                 to a curated selection of premium home essentials and entertainment options.</p>
         </div>
         <!-- our products-cards -->
-        
+
         <div class="grid  grid-cols-1 lg:grid-cols-2 gap-3">
             <!-- card1 -->
             <div class="card lg:card-side pt-2 lg:p-4 border ">
                 <figure><img class="w-3/4 lg:w-full" src="op1.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Jacket</h2>
-                    <p class="program-text2 text-neutral-500">Stylish, weather-ready, versatile design for active lifestyles.</p>
+                    <p class="program-text2 text-neutral-500">Stylish, weather-ready, versatile design for active
+                        lifestyles.</p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $30.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-        <!-- card2 -->
+            <!-- card2 -->
 
             <div class="card lg:card-side  pt-2 lg:p-4 border ">
                 <figure><img class="w-3/4 lg:w-full" src="op2.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Logo</h2>
                     <p class="program-text2 text-neutral-500">Sleek, Modern Emblem: Symbolizing Style and Adventure.</p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $12.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-        <!-- card3 -->
+            <!-- card3 -->
 
             <div class="card lg:card-side pt-2 lg:p-4 border ">
                 <figure><img class="w-3/4 lg:w-full" src="op3.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Cap For Hockeys</h2>
                     <p class="program-text2 text-neutral-500">Comfortable, Stylish Headwear for Everyday Use</p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $18.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-        <!-- card4 -->
+            <!-- card4 -->
 
             <div class="card lg:card-side  pt-2 lg:p-4 border ">
                 <figure><img class="w-3/4 lg:w-full" src="op4.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Jersey</h2>
-                    <p class="program-text2 text-neutral-500">Performance, Comfort, and Team Spirit Combined Stylishly.</p>
+                    <p class="program-text2 text-neutral-500">Performance, Comfort, and Team Spirit Combined Stylishly.
+                    </p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $25.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-        <!-- card5 -->
+            <!-- card5 -->
 
             <div class="card lg:card-side pt-2 lg:p-4 border">
                 <figure><img class="w-3/4 lg:w-full" src="op5.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Helmet</h2>
-                    <p class="program-text2 text-neutral-500">Superior Protection and Performance for Optimal Safety .</p>
+                    <p class="program-text2 text-neutral-500">Superior Protection and Performance for Optimal Safety .
+                    </p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $25.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-        <!-- card6 -->
+            <!-- card6 -->
 
             <div class="card lg:card-side  pt-2 lg:p-4 border">
                 <figure><img class="w-3/4 lg:w-full" src="op6.png" alt="Album" /></figure>
                 <div class="card-body">
-                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span class="program-text2 text-neutral-400">5.0</span> <i class="text-blue-400 fa-solid fa-eye"></i><span class="program-text2 text-neutral-400">20</span> <i class="text-red-600 fa-solid fa-heart"></i> <span class="program-text2 text-neutral-400">200</span></section>
+                    <section class="space-x-2"><i class="text-yellow-500 fa-solid fa-star"></i><span
+                            class="program-text2 text-neutral-400">5.0</span> <i
+                            class="text-blue-400 fa-solid fa-eye"></i><span
+                            class="program-text2 text-neutral-400">20</span> <i
+                            class="text-red-600 fa-solid fa-heart"></i> <span
+                            class="program-text2 text-neutral-400">200</span></section>
                     <h2 class="card-title font-extrabold text-[20px]">Logo</h2>
                     <p class="program-text2 text-neutral-500">Sleek, Modern Emblem: Symbolizing Style and Adventure.</p>
                     <div class="card-actions flex flex-col lg:flex-row lg:justify-around lg:items-center">
                         <p class="dot-clr text-xl font-extrabold my-3">Price - $18.00</p>
                         <p class="program-text2 text-neutral-400 "><i class="mr-2 fa-solid fa-cart-shopping"></i>
-                            <span>Delivery Fee : Free</span></p>
+                            <span>Delivery Fee : Free</span>
+                        </p>
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        <div class="text-center">
-            <p>Get In Touch</p>
-            <p></p>
+        <!-- get in touch text -->
+        <div class="text-center flex my-8 flex-col items-center ">
+            <p class="text-4xl font-extrabold">Get In Touch</p>
+            <p class="program-text2 my-8 text-gray-500 lg:w-[607px]">Connect effortlessly, reach out promptly, and stay
+                close. Seamless communication for meaningful connections.</p>
         </div>
+        <!-- get in touch slides -->
+        <section>
+            <!-- left and right slides -->
+            <div class="flex flex-col lg:flex-row lg:justify-between">
+                <!-- get in touch left side -->
+                <div class="grid  gap-5  lg:p-12 border rounded-2xl">
+                    <!-- phone -->
+                    <div class="grid gap-4 border rounded-2xl p-8">
+                        <p><img class="w-[48px]" src="pho.png" alt=""></p>
+                        <p class="gray-text1 font-normal text-gray-400">Phone Number: </p>
+                        <p class="text-xl font-extrabold leading-8">(+62) 123-321-543</p>
+                    </div>
+                    <!-- msg -->
+                    <div class="grid gap-4 border rounded-2xl p-8">
+                        <p><img class="w-[48px]" src="msg.png" alt=""></p>
+                        <p class="gray-text1 font-normal text-gray-400">Email :
+                        </p>
+                        <p class="text-xl font-extrabold leading-8">hockeys@support.com</p>
+                    </div>
+                    <!-- map -->
+                    <div class="grid gap-4 border rounded-2xl p-8">
+                        <p><img class="w-[48px]" src="map.png" alt=""></p>
+                        <p class="gray-text1 font-normal text-gray-400">Location : </p>
+                        <p class="text-xl font-extrabold leading-8">Haydarabad,Tongi,Gazipur</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <!-- get in touch right side -->
+                <div class="grid gap-6 my-12">
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <!-- your name and subject -->
+                        <div class="grid grid-col-2">
+                            <div class="grid gap-4">
+                                <section class="grid gap-4">
+                                    <p class="text-xl font-bold"> Your Name</p>
+                                    <input class="w-[335px] h-[64px] lg:w-[324px] rounded-xl bg-gray-200 p-5"
+                                        type="text" placeholder="Enter Your Name" name="" id="">
+                                </section>
+                                <section class=" grid gap-4">
+                                    <p class="text-xl font-bold">Subject</p>
+                                    <input class="w-[335px] h-[64px] lg:w-[324px] rounded-xl bg-gray-200 p-5"
+                                        type="text" placeholder="Enter Your Subject" name="" id="">
+
+                                </section>
+
+                            </div>
+                        </div>
+                        <!-- your Email and Phone Number  -->
+                        <div class="grid  grid-col-2">
+                            <div class="grid gap-4">
+                                <section class="grid gap-4">
+                                    <p class="text-xl font-bold"> Your Email</p>
+                                    <input class="w-[335px] h-[64px] lg:w-[324px] rounded-xl bg-gray-200 p-5"
+                                        type="email" placeholder="Enter Your Email" name="" id="">
+                                </section>
+                                <section class=" grid gap-4">
+                                    <p class="text-xl font-bold">Phone Number</p>
+                                    <input class="w-[335px] h-[64px] lg:w-[324px] rounded-xl bg-gray-200 p-5" type="tel"
+                                        placeholder="Enter Your Phone Number" name="" id="">
+
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Message -->
+                    <div class="grid gap-2">
+                        <p class="text-xl font-bold">Message</p>
+                        <input
+                            class="placeholder:absolute placeholder:-mt-16 lg:placeholder:-mt-36 w-[335px] lg:w-[672px] h-[200px] lg:h-[370px] rounded-xl bg-gray-200 p-5 "
+                            type="text" placeholder="Write Your Message" name="" id="">
+                        <input
+                            class="mt-3 bg-red-600 text-xl font-bold rounded-xl border-1 border-solid border-red-500 text-white py-4   hover:bg-red-500 hover:scale-[1.02]"
+                            type="button" value="Send Message">
+                    </div>
+                </div>
+            </div>
+            <!-- social media -->
+            <div class="text-center flex flex-col items-center my-6">
+                <p class="text-2xl font-extrabold ">Social Media</p>
+                <p class="flex gap-4 mt-6 mb-7">
+                    <i class=" text-blue-400  hover:scale-[1.05] fa-brands fa-twitter"></i>
+                    <i class=" text-blue-600  hover:scale-[1.05] fa-brands fa-facebook"></i>
+                    <i class="text-red-600  hover:scale-[1.05] fa-brands fa-instagram"></i>
+                    <i class=" hover:scale-[1.05] fa-brands fa-github"></i>
+                </p>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer flex justify-center  bg-black w-full mx-auto p-14 lg:py-14  bg-base-200 text-base-content">
@@ -396,9 +543,9 @@
                 <p class="text-2xl lg:text-3xl text-white font-extrabold"> Get In Touch</p>
                 <div class="my-5 text-white grid gap-3">
                     <p>Follow us on for the latest updates and insights.</p>
-                    <p><i class="mr-2 fa-solid fa-envelope text-red-600 "></i> <span
+                    <p><i class="mr-2 fa-solid fa-envelope text-red-600 hover:scale-[1.05]"></i> <span
                             class="font-medium text-[16px]">hockeys@support.com</span></p>
-                    <p><i class="mr-2 fa-solid fa-phone text-red-600"></i> <span
+                    <p><i class="mr-2 fa-solid fa-phone text-red-600 hover:scale-[1.05]"></i> <span
                             class="font-medium text-[16px]">+592165454</span></p>
                 </div>
             </div>
